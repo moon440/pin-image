@@ -1,0 +1,13 @@
+# Normalise, but pin the line endings that matter.
+# A CRLF shebang stops pin.tcl from starting on Linux, and PowerShell is happiest
+# with CRLF on Windows, so both get what they expect.
+* text=auto
+
+*.ps1  text eol=crlf
+*.cmd  text eol=crlf
+*.tcl  text eol=lf
+*.py   text eol=lf
+*.md   text
+*.gif  binary
+LICENSE    text eol=lf
+.gitignore text eol=lf
