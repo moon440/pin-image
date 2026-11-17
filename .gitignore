@@ -1,0 +1,11 @@
+# local state and scratch output
+pinimage.json
+pin.state
+*.log
+__pycache__/
+*.pyc
+
+# screenshots taken while debugging
+screenshot*.png
+candidates.png
+frames/
